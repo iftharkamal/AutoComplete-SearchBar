@@ -1,0 +1,40 @@
+body{
+    color: white;
+    text-align: center;
+    padding: 20px;  
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.heading{
+   font-size: 60px;
+}
+.search-input{
+    width: 500px;
+    margin: auto;
+}
+.search-input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.search-container{
+    width: 500px;
+    border-radius: 10px;
+    border: 1px white solid;
+    margin: auto; 
+    text-align:left;
+    max-height: 250px;
+    overflow-y: scroll;
+    
+}
+.search-items{
+    padding: 3px;
+    display: block;
+}
+.search-items:hover{
+    background-color: gray;
+}
